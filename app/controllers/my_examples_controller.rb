@@ -9,7 +9,7 @@ class MyExamplesController < ApplicationController
   def lottery
     lottery_numbers = []
     6.times do
-      number = rand 1...60
+      number = rand 1..60
       lottery_numbers << number
     end
 
